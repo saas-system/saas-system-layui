@@ -1,0 +1,16 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  layui:
+    specifier: ^2.9.14
+    version: 2.9.14
+
+packages:
+
+  /layui@2.9.14:
+    resolution: {integrity: sha512-q10kQACo87VXWrpk371mEklNlfUVLzdQ4FXNiBJJO04V5/RqWy+Y3RHfu+d0fr1vcOQPeRbATagve4AUHfc4OQ==}
+    dev: false
