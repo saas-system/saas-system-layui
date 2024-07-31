@@ -3,8 +3,9 @@
  */
 
 layui.extend({
-  setter: 'config' // 将 config.js 扩展到 layui 模块
-}).define(['setter'], function(exports){
+  setter: 'config', // 将 config.js 扩展到 layui 模块
+  apiPath: "lib/apiPath", // 接口地址
+}).define(['setter', 'apiPath'], function(exports){
   var setter = layui.setter;
 
   // 将核心库扩展到 layui 模块

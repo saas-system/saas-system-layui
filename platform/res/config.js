@@ -6,7 +6,7 @@
 layui.define(['all'], function(exports){
   exports('setter', {
     paths: { // v1.9.0 及以上版本的写法
-      core: layui.cache.base + 'adminui/dist/', // 核心库所在目录
+      core: layui.cache.base + 'adminui/src/', // 核心库所在目录
       views: layui.cache.base + 'views/', // 业务视图所在目录
       modules: layui.cache.base + 'modules/', // 业务模块所在目录
       base: layui.cache.base // 记录静态资源所在基础目录
@@ -31,7 +31,7 @@ layui.define(['all'], function(exports){
 
     // 自定义请求字段
     request: {
-      tokenName: 'access_token', // 接口自动传递 token 的字段名。可设置 false 不传递
+      // tokenName: 'access_token', // 接口自动传递 token 的字段名。可设置 false 不传递
       tokenTransferMethod: 'data' // token 的传递方式（可选值: data | headers） --- v2.4.0 新增
     },
 

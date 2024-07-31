@@ -156,14 +156,14 @@ layui.define(['laytpl', 'layer'], function(exports){
 
   //异常提示
   view.error = function(content, options){
-    return view.popup($.extend({
-      content: content
-      ,maxWidth: 300
-      //,shade: 0.01
-      ,offset: 't'
-      ,anim: 6
-      ,id: 'LAY_adminError'
-    }, options))
+    // return view.popup($.extend({
+    //   content: content
+    //   ,maxWidth: 300
+    //   //,shade: 0.01
+    //   ,offset: 't'
+    //   ,anim: 6
+    //   ,id: 'LAY_adminError'
+    // }, options))
   };
 
 
