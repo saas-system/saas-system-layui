@@ -31,7 +31,7 @@ layui.define(['all'], function(exports){
 
     // 自定义请求字段
     request: {
-      // tokenName: 'access_token', // 接口自动传递 token 的字段名。可设置 false 不传递
+      tokenName: 'access_token', // 接口自动传递 token 的字段名。可设置 false 不传递
       tokenTransferMethod: 'data' // token 的传递方式（可选值: data | headers） --- v2.4.0 新增
     },
 

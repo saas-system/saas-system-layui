@@ -25,18 +25,17 @@ layui.define(['form'], function (exports) {
                     return false;
                 }
 
-
                 // 请求成功后，写入 access_token
                 layui.data(setter.tableName, {
                     key: setter.request.tokenName,
-                    value: res.data.access_token
+                    value: res.data.token
                 });
 
                 // 给基础组件同步预设 token 值
                 admin.setComponentsToken();
 
                 // 登入成功的提示与跳转
-                layer.msg('即将模拟跳转', {
+                layer.msg('登录成功', {
                     offset: '15px',
                     icon: 1,
                     time: 1000
